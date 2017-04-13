@@ -1,0 +1,227 @@
+\documentclass[oneside,12pt]{report}
+\usepackage[latin1]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage[frenchb]{babel} 
+\usepackage{hyperref}
+\usepackage[dvips]{graphicx}
+
+\usepackage[usenames]{color}
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{indentfirst}
+\usepackage{pgf}
+\usepackage{pgfplots}
+\usepackage{moreverb}
+\usepackage{url}
+\usepackage{babelbib}
+\usepackage{multirow}
+\sloppy
+\usepackage{setspace}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{listings}
+\usepackage{fancybox}
+\usepackage{rotating}
+\usepackage[strict]{changepage}
+\usepackage{relsize}
+\usepackage{geometry}
+%\usepackage{latexsym}     
+%\usepackage{makecell} 
+%\usepackage{pdflscape}
+%\usepackage{caption}
+%\renewcommand{\cellalign}{cc}
+%\renewcommand{\theadalign}{cc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[acronym]{glossaries}
+%\usepackage{acronym}
+%\usepackage{glossaries}
+%\makeglossaries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\UrlBreaks{\do\/\do-}
+\hypersetup{
+backref={true}, %permet d'ajouter des liens dans...
+pagebackref=true,%...les bibliographies
+hyperindex=true, %ajoute des liens dans les index.
+colorlinks=true, %colorise les liens
+breaklinks=true, %permet le retour à la ligne dans les liens trop longs
+citecolor=blue,
+urlcolor= blue, %couleur des hyperliens
+linkcolor= black, %couleur des liens internes
+bookmarks=true, %créer des signets pour Acrobat
+bookmarksopenlevel=1,
+%bookmarksopen=true, %si les signets Acrobat sont crées,
+%les afficher complètement.
+pdftitle={}, %informations apparaissant dans
+pdfauthor={}, %dans les informations du document
+pdfsubject={} %sous Acrobat.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%*****************************************
+% INTERLIGNE
+%\renewcommand{\baselinestretch}{1.2}
+%******************************************
+
+%Fichier PDF interactif%%%%%%%%%%%%%
+%\usepackage{color}
+%\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%[dvipdfm,colorlinks=true,urlcolor=blue,pdfhighlight =/O]
+%\usepackage[english]{algorithme}
+%\usepackage{layout}
+%\DeclareFontFamily{T1}{cmr}{\hyphenchar\font=-1}
+%------------------------------------------------------------
+%\usepackage{times}
+%-----------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Espace entre Legende et Texte
+%\setlength\abovecaptionskip{10\p@}
+%\setlength\belowcaptionskip{0\p@}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-----------------------------------------------------------
+% Profondeur de \subsubsection = 3
+\setcounter{tocdepth}{3}     % Dans la table des matieres
+\setcounter{secnumdepth}{4}  % Avec un numero.
+%-------------------------------------------------------------------
+%           Corrections pour les imprimantes recto-verso
+%                          (A AJUSTER)
+%-------------------------------------------------------------------
+%\ShiftOddPagesRight{-1mm}
+%\ShiftOddPagesDown{2.5mm}
+%\ShiftEvenPagesRight{0mm}
+%\ShiftEvenPagesDown{0mm}
+%-------------------------------------------------------------------
+%                             Marges
+%-------------------------------------------------------------------
+% pour positionner les vraies marges:
+%\SetRealMargins{1mm}{1mm}
+%-------------------------------------------------------------------
+%                             En-tetes
+%-------------------------------------------------------------------
+\newcommand\upun[1]{\uppercase{\underline{\underline{#1}}}}
+\FormatHeadingsWith\upun
+\newcommand\itheadings[1]{\textit{#1}}
+\FormatHeadingsWith{\itheadings}
+\setlength{\HeadRuleWidth}{0.4pt}
+
+%\parindent=2cm
+\setlength{\parindent}{3ex}
+%-------------------------------------------------------------------
+%                         Les references
+%-------------------------------------------------------------------
+\NoChapterNumberInRef
+\NoChapterPrefix
+\makeglossary
+\makeindex
+%-----------------------------------------------------------------
+%               Document
+%-----------------------------------------------------------------
+\begin{document}
+\renewcommand{\bibname}{Bibliographie}
+\renewcommand{\tablename}{Tableau}
+\renewcommand{\contentsname}{Table des matières}
+\renewcommand{\listtablename}{Liste des tableaux}
+\renewcommand{\listfigurename}{Liste des figures}
+\renewcommand{\chaptername}{Chapitre}
+      \OddHead={{\leftmark\rightmark}{\hfil\slshape\rightmark}}
+      \EvenHead={{\leftmark}{{\slshape\leftmark}\hfil}}
+      \OddFoot={\hfil\thepage}
+      \EvenFoot={\thepage\hfil}
+      \pagestyle{ThesisHeadingsII}
+\ResetChaptersAtParts 
+
+%-------------------------------------------------------------------
+%                         Page de titre:
+%-------------------------------------------------------------------
+\ThesisTitle{{ La méthode GRASP (Greedy Randomized Adaptive Search Procedure) combinée au Path Relinking pour la résolution du problème d'affectation quadratique }}
+\ThesisDate{2017}
+\ThesisAuthor{ZEMRI Ahmed}
+\ThesisUPS
+% Jury
+\President{******** }
+\Rapporteurs{Mr L.LOUKIL & Université d'Oran 1}
+%\Supervisor{}
+\Examinateurs{************ & Université d'Oran 1 \\ *********** & Université d'Oran 1}
+%\NewJuryCategory{supervisor}{\it  Directeur de thèse :}
+                        %{\it  Directeur de thse :}
+                       
+                      \MakeThesisTitlePage
+%-------------------------------------------------------------------
+%                          remerciements
+%-------------------------------------------------------------------
+%\DontFrameThisInToc
+\begin{ThesisAcknowledgments}
+\vspace{1,5cm}
+\bigskip
+Ceci contient les remerciements .....
+
+
+\bigskip
+\end{ThesisAcknowledgments}
+%-------------------------------------------------------------------
+%                            dedicace
+%-------------------------------------------------------------------
+\begin{ThesisDedication}
+%\LARGE
+\vspace{1,5cm}
+Je dédie ce travail,\\
+A mes chères parents \\ 
+A mes frères et s\oe urs \\
+
+
+%\normalsize
+\end{ThesisDedication}
+%-------------------------------------------------------------------
+%                  ecriture de `Chapitre'et `Partie'
+%                      dans la table des matieres
+%-------------------------------------------------------------------
+\WritePartLabelInToc
+\WriteChapterLabelInToc
+%-------------------------------------------------------------------
+%                        Résumé
+%-------------------------------------------------------------------
+
+
+%-------------------------------------------------------------------
+%                        table des matieres
+%-------------------------------------------------------------------
+
+\tableofcontents
+\listoffigures  % table des figures
+\listoftables  % table des tableaux
+%\include{ACRONYMES}
+\mainmatter
+%\frenchspacing
+%\printglossaries
+%section sans numerotation
+%\SpecialSection{Introduction}
+%Titre de l'introduction: Contexte général, Problématique et Objectifs
+%--------------------------------------
+% Chapitres
+%--------------------------------------
+%\newacronym{TEM}{TEM}{scanning electron microscope}
+\begin{spacing}{1.2}
+%%%%%%%%%%%%%\begin{spacing}{1.3} % pour une autre interligne
+
+\include{introduction}
+\include{chapitre1}
+\include{chapitre2}
+\include{chapitre3}
+\include{conclusion}
+\end{spacing}
+%-------------------------------------------------------------------
+%                       La bibliographie
+%-------------------------------------------------------------------
+%\nocite{*}
+%----------------------------
+\bibliographystyle{plain}
+\bibliography{Biblio}
+%-------------------------------------------------------------------
+%                       L'Annexe
+%-------------------------------------------------------------------
+%\begin{appendices}
+%begin{appendices}
+\end{document}

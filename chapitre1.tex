@@ -1,0 +1,197 @@
+\chapter{cloud computing}
+\section{introduction}
+
+Le Cloud Computing, ou Informatique en nuages, est un paradigme qui a attiré une attention toute particulière ces dernières années dans le monde de l'informatique, il consiste à proposer les services informatiques sous forme de services à la demande, accessibles de n'importe où, n'importe quand et par n'importe qui.
+Dans ce chapitre nous allons présenter les notions fondamentales du Cloud Computing, ses enjeux, ses évolutions et son utilité ainsi que la technologie qui la constitue et les différents acteurs du secteur.
+Nous devons dans un premier temps étudier le Cloud Computing de manière générale (Ces origines ,Définitions '),puis dans un second temps nous allons étudier les trois services principaux, sur lesquels le Cloud Computing repose applicatif,plateforme, infrastructure(Saas,Paas,Iaas)et les modele de deploiment ,Et la dernière partie de ce chapitre présente les différents acteurs principale de Cloud Computing.
+\section{Concepts et technologies à l'origine du « Cloud Computing » :}
+Le Cloud Computing est la réunion de différents concepts informatiques, étudiés et développés depuis les années 60, associés à certaines technologies, récemment accessibles financièrement et matures techniquement. Dans la suite nous allons détailler 5 concepts et technologies qui nous semblent être fondamentaux pour  définir les fondements du cloud computing
+\subsection{L'informatique utilitaire de John McCarthy :}
+Ce concept se base sur la notion de consommation et a été proposé en 1961,lors d'une conférence au MIT (Massachusetts Institute of Technology), par John McCarthy aussi connu comme l'un des pionniers de l'intelligence artificielle (dont il proposa le nom en 1955) et pour avoir inventé du LISP en 1958. Lors de ce discours, John McCarthy suggéra que la technologie informatique partagée « time-sharing » pouvait construire un bel avenir dans lequel la puissance de calcul et même les applications spécifiques pouvaient être vendues comme un service public. Cette
+idée, très populaire dans les années 60, disparu au milieu des années 70 : à l'époque, les technologies matérielles, logicielles et réseaux n'étaient tout simplement pas prêtes. Le CC met en oeuvre l'idée d'informatique utilitaire du type service public, proposée par John McCarthy.
+\subsection{Le concept de « grille informatique » :}
+ce concept est apparu en 1997 lors d'un séminaire au laboratoire national d'Argonne intitulé
+« Building a Computational Grid »,Le Grid Computing est une technique de calcul consistant à partager 
+les ressources de tout élément informatique permettant l'exécution d'une tâche ou le stockage d'une donnée numérique.
+Les ressources informatiques de cette infrastructure virtuelle, reliées de façon logique, sont délocalisées et autonomes.
+Cette technique permet de résoudre des problèmes que l'utilisation d'un super-ordinateur ne pourrait pas 
+solutionner dans un temps réaliste et fournir d'autre service comme debit,disponibilité,sécurité,
+Il s'inspire grandement du concept de informatique utilitaire .
+\subsection{Le concept de « ferme de serveurs » :}
+Les fermes de serveurs sont apparues au début des années 2000 ,Ces « fermes » hébergent jusqu'à plusieurs centaines de serveurs montés en Cluster.
+Le « Clustering » est une technique qui consiste à regrouper plusieurs serveurs (ou « n½uds ») indépendants dans un même lieu afin de dépasser les limitations d'une machine unique. Les différents n½uds mis en réseau ensemble vont apparaître comme une seule machine ayant plus de capacités plus de puissance, de mémoire, de stockage.
+\subsection{Les fournisseurs de services d'application :}
+Les fournisseurs de services d'application ont aussi leur importance dans l'origine du « Cloud Computing »,Une ASP désigne une application fournie comme un service ,Plutôt que d'installer le logiciel sur le poste client en ayant à assurer les phases d'installation et de maintenance sur chaque poste, les applications ASP sont hébergées et centralisées sur un serveur unique et accessible par les clients au travers de protocole standard,comme par exemple le cas avec des applications Web accessibles par http :il n'y a alors plus de déploiement ou de maintenance à effectuer sur le poste utilisateur, celui-ci n'a alors besoin que d'un simple navigateur Internet. Le déploiement, la configuration, la maintenance, la sauvegarde, etc. sont désormais de la responsabilité du fournisseur du service, le client est alors consommateur.
+
+On s'intéresse en notre travail à la deuxième problème.
+
+\subsection{La virtualisation :}
+La virtualisation est un concept beaucoup plus ancien qui constitue le socle du Cloud Computing. La virtualisation regroupe l'ensemble des techniques matérielles ou logicielles permettant de faire fonctionner, sur une seule machine physique, plusieurs configurations informatiques (systèmes d'exploitation, applications, mémoire vive,...) de manière à former plusieurs machines virtuelles qui reproduisent le comportement des machines physiques,Les premiers travaux peuvent être attribués à IBM,qui dans les années 60, travaillait déjà sur les mécanismes de virtualisation en développant dans les centres de recherche de Cambridge et de Grenoble, CMS (Conversation Monitor System), le tout premier hyperviseur. C'est donc depuis presque 50 ans que l'idée d'une informatique à la demande est présente dans les esprits même si les technologies n'étaient jusqu'alors pas au rendez-vous pour pouvoir concrétiser cette idée.
+\section{Définition }
+Il existe de nombreuses définitions du terme Cloud Computing (informatique dans le nuage) et il y a peu de consensus sur une seule et universelle définition,Cette multitude de définitions reflète sur la diversité et la richesse technologique du Cloud Computing.
+Nous citons quelque difinition:
+\begin{description}
+ \item[cloud computing]: la définition proposée par CISCO [2] : 'le Cloud Computing est une plateforme de mutualisation informatique fournissant aux entreprises des services à la demande avec l'illusion d'une infinité des ressources'
+\item pour Microsoft :
+L'ensemble des disciplines, technologies et modèles commerciaux utilisés pour délivrer des capacités informatiques (logiciels, plates-formes,matériels), comme un service à la demande.
+'Le service à la demande (vous ne payez que ce que vous utilisez);
+'Le service est accessible n'importe où;
+'Le service est mesuré, ce qui permet de préserver les ressources;
+'La quantité est modulable à la location (élasticité infinie !);
+'Les ressources sont mises en commun, ce qui réduit les coûts.
+\item
+Pour EMC, Fournisseur de solutions d'archivage et de stockage : 
+Le CloudComputing permet aux utilisateurs d'accéder aux pools de ressources quand
+ils le souhaitent et bénéficient ainsi de l'éfficacité partagée et de souplesse.
+\item
+Cependant, la définition proposée par la National Institute of Standards and Technology
+(NIST)[nist] est devenue la référence acceptée par le public. NIST définit le Cloud Computing comme étant un modèle qui permet l'accès via un réseau d'une façon simple et à la demande à un ensemble des ressources informatiques mutualisées et configurables (ex réseaux, serveurs, stockage, applications et services). Ces ressources informatiques peuvent être allouées et libérées rapidement avec le minimum d'effort de gestion ou d'interaction avec les fournisseurs de services.
+
+ \end{description}
+%import les image 
+\begin{center}
+\includegraphics[scale=0.6]{Figures/cloud_computing.png}
+
+\caption{figure: cloud computing}
+\label{fig1}
+\end{center}
+\section{L'évolution de Cloud computing:}
+Le Cloud computing est le fruit d'une évolution pouvant être présentée en 5 phases :
+\begin{description}
+ \item [*] Elle débute avec les Fournisseurs d'Accès Internet (FAI 1.0). Ils ont pour but de mettre en place des moyens de télécommunication pour assurer le raccordement des personnes ou entreprises au réseau internet.
+ \item [*]La seconde phase est l'orientation des FAI vers l'hébergement de pages web (FAI 2.0). Cette phase marque un grand bond dans le développement d'internet.
+ \item [*] La troisième phase (FAI 3.0) est la possibilité qu'offrent les FAI à héberger des applications métiers des entreprises.
+ \item [*] Une connaissance des besoins applicatifs des entreprises permettent aux FAI de faire évoluer leur domaine d'intervention. Ils mettent en place des plateformes de génération d'applications à la demande. Il s'agit des ASP (Application Service Provider) dont les "Software as a Service" sont des dérives :c'est le FAI 4.0.
+ \item [*] La généralisation des pratiques précédentes, la prise en compte de nouvelles pratiques et l'intégration des principes que nous présentons dans les sections suivantes donnent naissance au cloud computing [Fos49].
+ 
+\end{description}
+\begin{center}
+\includegraphics[scale=0.6]{Figures/evolution_de_cloud_computing.png}
+
+\caption{figure: evolution de cloud computing}
+\label{fig2}
+\end{center}
+\section{Les caractéristiques essentielles de cloud computing :}
+\subsection{Self-service à la demande :}
+L'utilisateur d'un service de « Cloud Computing » a la capacité (« self-provisioning »)
+d'approvisionner lui-même de nouvelles ressources telles que de l'espace disque, des serveurs virtuels, du temps CPU, des nouvelles boîtes aux lettres, '
+\subsection{Elasticité et rapidité :}
+Les ressources peuvent être allouées ou désallouées rapidement. C'est une des caractéristiques essentielles du Cloud computing , la capacité d'augmenter et de réduire le volume des ressources utilisées en fonction des besoins, de même que libérer les ressources qui ne sont plus nécessaires, au profit d'autres utilisations,Ces opérations peuvent se faire par demande ou de façon automatique,par
+programmation ou triggers.
+\subsection{Accès aux ressources :}
+Les ressources sont disponibles via le réseau Internet, ou via l'Intranet dans le cas d'un Cloud privé.
+Les ressources sont accessibles via des protocoles standards (TCP/IP,SSL, HTTP,...)L'accès aux ressources peut se faire à partir d'un grand nombre de périphériques clients (ordinateurs, portables, téléphones mobiles, smartphones, ...)et depuis n'importe quelle plate-forme (Windows, Unix, MacOs, Linux, systèmes propriétaires,')
+\subsection{Allocation des ressources :}
+Les ressources mises à disposition par les providers de « Cloud Computing » sont mutualisées pour répondre aux besoins de plusieurs clients dans une architecture multi-tenant.
+Une architecture  « multi-tenant » ou  « multi-locataire » fait qu'une seule instance d'une application est adaptée aux besoins de tous les utilisateurs et offre malgré tout un certain niveau de customisation pour s'adapter de manière individualiséen aux différents clients.
+\subsection{Mesure du service :}
+Toutes les ressources allouées peuvent être surveillées et contrôlées de manière automatique et  optimise l'utilisation de ressources en s'appuyant sur le modèle 'payez uniquement ce que vous consommez'.
+\section{Taxonomie du cloud computing:}
+Avant de présenter les différents types de cloud pouvant être développés, nous établissons dans un premier temps quelques critères de classification :
+\begin{enumerate}
+ \item {La raison de développement (business model):} c'est la raison qui justifie la mise en place de la plateforme. Elle peut être commerciale, scientifique ou communautaire...ex.
+ \item {Le modele  de services :}c'est le modele de service que peut être délivré par le cloud aux clients.
+ \item { L'accessibilité :}Le cloud peut être accessible par tous (``cloud public'') ou restreint à un public particulier (``cloud privé''), C'est la raison qui justifie le déploiement de la plateforme de cloud.
+\end{enumerate}
+\subsection{ raison de développement :}
+L'utilisation du CC ne se limite pas uniquement aux entreprises à caractère commercial. En fonction des raisons de sa mise en place, nous distinguons quatre catégories de plateformes de CC à savoir :
+\begin{description}
+ \item \textbf{Cloud d'Entreprises} :Dans cette catégorie, nous retrouvons des entreprises de petites et de moyennes tailles disposant chacune de peu de ressources et de moyens de maintenance de leurs infrastructures. Elles se regroupent donc autour d'un projet de cloud afin de mutualiser leurs capacités.La plateforme qui en découle est privée, c'est-a-dire accessible uniquement
+par les entités des différentes entreprises. Cette plateforme à l'avantage d'être de petite taille et d'accès restreint à des utilisateurs connus.
+\item \textbf{Cloud Gouvernemental et Recherche Scientifique :}des instituts de recherche mettent leur pieds sur  des environnements de cloud pour des raison de recherche scientifique de developement ,L'accès est réservé aux personnes appartenant aux instituts de recherche associés.
+\item \textbf{Cloud pour Réseaux Sociaux et Jeux :}Le développement des réseaux sociaux et des jeux en ligne nécessite de plus en plus de grandes quantités de ressources.ca implique la  développement d'une plateforme similaire au cloud devient une évidence pour optimiser l'utilisation des ressources et faciliter le partage de données. En effet, elles sont considérées
+comme un cloud .
+\item \textbf{Cloud pour Fournisseurs de Services :}C'est le modèle le plus répandu. Une entreprise, appelée fournisseur, met à la disposition d'autres (appelées clients) une plateforme d'exécution d'applications et assure le service informatique inhérent.
+\end{description}
+
+\subsection{Le modele  de services:}
+Le but principal du Cloud est d'offrir des services à des utilisateurs ,suivant différents
+modèles.  NIST précise que le Cloud Computing a trois modèles de services principaux Iaas,Paas,Saas
+\begin{center}
+\includegraphics[scale=0.6]{Figures/modele_de_service.png}
+
+\caption{figure : modele de srvice}
+\label{fig2}
+\end{center}
+
+\begin{description}
+ \item \textbf{Infrastructure en tant que service(infrastructure as a Service  « Iaas ») :}
+ Dans ce modèle, l'infrastructure physique (le matériel réseau, le matériel serveur, la plate-forme de
+virtualisation, les moyens et capacités de stockage) est « dématérialisée » et hébergée.
+Le fournisseur procure donc une couche matérielle (serveurs, réseau, stockage, hyperviseur, solution de supervision, solution de management) sur laquelle les clients vont pouvoir déposer leurs environnements système et leurs applications.
+Mais ce service va encore plus loin grâce à la virtualisation. L'utilisation de cette technologie permet aux clients de créer leur propre infrastructure personnalisée (serveurs virtuels, réseau virtuel, stockage) en quelques clicks. Cette infrastructure est par ailleurs extrêmement flexible, accessible sans restriction et configurable en temps réel.
+Les clients n'ont pas à se soucier de la scalabilité de leur infrastructure, cette tâche étant gérée par le fournisseur. Celui-ci gère également tous les coûts de gestion liés au fonctionnement du matériel (électricité, climatisation, etc) ainsi que le contrôle de la consommation s'il y a une facturation à l'usage (au Go, au temps d'utilisation, etc).
+Il y a un avantage principal dans ce niveau de service. Le client n'a plus à construire son propre Datacenter, ni à gérer l'infrastructure physique et les coûts qui lui sont inhérents.
+L'ingénieur ou l'administrateur système peut se reconcentrer sur l'optimisation de son
+environnement système, et le développeur sur ses applications. En fait, le client à un contrôle total de son Datacenter virtuel sans se soucier de son élasticité, ni de l'infrastructurephysique qu'il y a derrière.
+Mais ce modèle a également des inconvénients. Déjà, comme pour toute infrastructure informatique classique, il est indispensable d'avoir un administrateur ou un ingénieur systèmes dans son entreprise. Et enfin, malgré la facilité technique de création d'une infrastructure personnalisée grâce à la virtualisation, un important travail de réflexion et d'expertise préalable reste à fournir pour sa mise en ½uvre.
+Plusieurs offres existent dans cette catégorie comme Amazon Elastic Compute Cloud (EC2) ainsi que d'autre ElasticHosts, GoGrid, Rackspace Cloud,RightScale, Skytap et Orange Business.
+Plateforme en tant que service(Plateform as a Service « Paas ») :
+Le PaaS fournit un niveau d'abstraction supplémentaire par rapport à l'IaaS. Dans cette catégorie, non seulement l'infrastructure est dématérialisée, mais aussi le système d'exploitation, et la plateforme d'exécution, de déploiement et de développement'application.
+Le fournisseur procure donc aux clients développeurs l'infrastructure, le système d'exploitation, les bases de données, la couche middleware, et une plateforme de développement complète, fonctionnelle et performante. Ces platesformes sont équipées d'outils de développement, de modules, d'un langage de programmation, d'un type de basede données.
+Le client développeur peut utiliser cette plate-forme pour héberger, développer et/ou exécuter des application.
+L'avantage pour le développeur est qu'il ne se soucie pas du matériel. Il peut développer, déployer puis exécuter son application sans avoir à gérer, ni les technologies sous-jacentes nécessaires, ni les configurations matérielles.Le cycle de développement est fortement réduit et le client peut de concentrer sur son application.
+\item \textbf{Plateforme en tant que service(Plateform as a Service « Paas ») :}Le PaaS fournit un niveau d'abstraction supplémentaire par rapport à l'IaaS. Dans cette catégorie, non seulement l'infrastructure est dématérialisée, mais aussi le système d'exploitation, et la plateforme d'exécution, de déploiement et de développement'application.
+Le fournisseur procure donc aux clients développeurs l'infrastructure, le système d'exploitation, les bases de données, la couche middleware, et une plateforme de développement complète, fonctionnelle et performante. Ces platesformes sont équipées d'outils de développement, de modules, d'un langage de programmation, d'un type de basede données.
+Le client développeur peut utiliser cette plate-forme pour héberger, développer et/ou exécuter des application.L'avantage pour le développeur est qu'il ne se soucie pas du matériel. Il peut développer, déployer puis exécuter son application sans avoir à gérer, ni les technologies sous-jacentes nécessaires, ni les configurations matérielles.Le cycle de développement est fortement réduit et le client peut de concentrer sur son application.
+ L'inconvénient apparait lorsque l'on veut déplacer une application d'une plateforme à une autre. La compatibilité n'est pas avérée car en fonction des solutions les langages sont différents. Il faut choisir sa plateforme en fonction de son langage, et ensuite y rester. 
+\item \textbf{Logiciel en tant que service(Sofware as a Service « Saas ») :}
+logiciel en tant que service (SaaS) offre des applications complètes fournies à la demande. Ce type de service fournit différents types d'applications telle que webmail, suite de bureautique en ligne ainsi que les réseaux sociaux et les jeux. Ces applications s'exécutent sur les infrastructures du provider. Elles sont hébergées sur le cloud et accessibles via un navigateur Internet. L'utilisation des services SaaS est plus simple que les autres services où la facturation s'adapte dynamiquement avec la consommation et la paramétrisation des services offerts sont limités. L'utilisateur n'a aucun souci sur l'installation des logiciels ou de leur mise à jour et il n'a aucun contrôle sur l'infrastructure du Cloud tel que serveurs virtuel, les composants réseaux, l'emplacement de stockage, la version de
+l'application et les fonctions d'application disponibles [3]. On peut distinguer deux types principaux de logiciels ou applications en tant que services :
+\begin{itemize}
+ \item Des applications sont disponibles au publique général totalement gratuit,par exemple Services Gmail et Facebook, où les e-mails, pièces jointes des email, photos, vidéos et musiques. Généralement ce type d'application est indirectement financé par la publicité, ou par des produits dérivés de l'analyse statistique à grande échelle.
+ \item des applications sont disponibles pour répondre aux attentes des entreprises payantes selon la consommation. Ces applications sont conçues pour fournir des logiciels faciles à utiliser
+\end{itemize}
+\end{description}
+\subsection{L'accessibilité :}En plus des modèles de livraison qui permettent de concrétiser les services Cloud, on
+trouve un ensemble de modèles de déploiement de services basés Cloud computing. Ces
+modèles permettent de définir le degré d'accès de l'utilisateur final aux fournisseurs de
+services Cloud. Ces modèles sont divisés en quatre grandes catégories d'apres  NIST[1].
+\begin{center}
+\includegraphics[scale=0.6]{Figures/modele_de_deployement.png}
+
+\caption{figure : modele de deployement}
+\label{fig3}
+\end{center}
+\begin{description}
+ \item \textbf{Le Cloud privé :}Un cloud privé est une infrastructure de cloud n'est utilisé que par une seule organisation. Le cloud privé peut être gérée par l'organisation elle-même ou par un prestataire de service qui peut être située dans les locaux de l'organisation ou à l'externe chez le prestataire de services.
+L'avantage supplémentaire du cloud privé c'est contrôle total des données par l'organisation, d'autre façon il permet la confidentialité et la sécurité des données grâce aux ressources qui ne peuvent pas être partagées par d'autre organisations[4].
+ \item \textbf{Le Cloud communautaire :}L'architecture est dédiée à une communauté professionnelle spécifique, pour permettre de travailler de manière collaborative sur un même projet.
+ \item \textbf{Le Cloud public :}Le cloud public est accessible publiquement à tous les particuliers et les groupe industriels. Son propriétaire est un fournisseur de service IaaS, PaaS ou SaaS. Les consommateurs ne sont facturés que pour les applications, les services ou les données qu'ils utilisent. Les ressources sont illimitées et il n'y a donc aucun investissement initial. Les « Clouds » publics sont généralement exploités par des les fournisseurs de cloud commerciaux comme Amazon, Google, Microsoft, GoGrid.
+ \item \textbf{Le Cloud hybride :}Le cloud hybride est une composition de deux ou plusieurs infrastructures de Cloud publics et privés. Généralement les données sensibles sont gérées au niveau interne par l'organisation ou chez le prestataire de cloud prive et l'autre type de données sont gérées par le cloud pu
+\end{description}
+\section{providers cloud computing }
+ l'existence du « cloud computing »et et sa valeur pour les consommateurs sont aujourd'hui plus évidentes pour le grand public ,les  différents acteurs du monde IT comme Google et Microsoft proposent des services de Cloud Computing.
+ \begin{center}
+\includegraphics[scale=0.6]{Figures/cloud_providers.png}
+
+\caption{figure : cloud provider}
+\label{fig4}
+\end{center}
+ \subsection{Amazon :}« Amazon Web Services » (AWS) met à disposition un cloud public depuis 2006. Au départ le but d'Amazon était de rentabiliser ses énormes infrastructures requises pour assumer les
+montées en charge pendant la période de Noël sur leur boutique en ligne.
+Aujourd'hui Amazon propose de nombreux services en ligne, à commencer par l'IaaS probablement le plus connu : Elastic Compute Cloud (EC2).
+\subsection{Salesforce :}Salesforce.com est une société qui a lancé dès 2003 des offres de Cloud public. C'est officiellement le plus ancien prestataire dans ce domaine. Aujourd'hui encore, leurs offres sont uniquement composées de Cloud Public, et adressées aux entreprises (surtout les grands comptes). Les outils proposés sont tournés vers le travail collaboratif, la gestion des ventes et le marketing relationnel.
+\subsection{Google AppEngine :}Google mise beaucoup sur le cloud computing et propose des services PaaS et SaaS.
+A grande échelle, les solutions de Google dans le cloud sont surtout connues des
+consommateurs privés au travers des ses Google Apps telles que Google Docs, Calendar ou
+encore Gmail. Toutes ces « web apps » sont dans le domaine du SaaS et gratuites pour une
+utilisation privée.
+Google App Engine dont la première version beta est sortie en avril 2008 est le service PaaS
+de Google. Au départ le service ne supportait que le développement d'applications en
+Python. Depuis, le support de Java Virtual Machines (JVMs) a été ajouté et permet de
+développer des applications non seulement en Java mais aussi au moyen de JRuby, JPython,
+Scala ou Clojure. Le SDK (software development kit) inclut un environnement complet de
+développement qui simule App Engine en local sur le bureau du développeur (Rhoton,
+2010).
+La plateforme inclut également des services sous formes d'API permettant de manipuler des
+images, d'envoyer des mails ou encore d'utiliser les comptes Google pour les identifications au sein de l'application.
+
+\subsection{Windows Azure :}Windows Azure est une fondation pour exécuter des applications et stocker des données dans un cloud. Elle fournit les logiciels que les clients de Microsoft peuvent installer et exécuter eux-mêmes sur leur propre ordinateur. Windows Azure est aujourd'hui un service, que les clients utilisent pour exécuter des applications et stocker des données sur des machines accessibles par Internet appartenant à Microsoft. Ces applications peuvent fournir des services aux entreprises, aux consommateurs ou les deux. Windows Azure a été conçue en partie au soutien de Microsoft applications SaaS, si les éditeurs de logiciels peuvent aussi l'utiliser commeune base pour une variété de logiciels de clouds à vocation commerciale.
+\section{Conclusion : }Conclusion : Le Cloud Computing se positionne actuellement en tête de liste des nouvelles technologies. Il
+se caractérise par son extensibilité et élasticité et son exploitabilité par un grand nombre
+d'utilisateurs dans le monde entier .il offre un grand   puissance de calcul et espace de stockage, comme toute innovation technologique qui se respecte, le nuage informatique fait économiser de
+l'argent ,le cout ,le temp de utilisations des logiciel le developement et l'insatallaion.
+
+
+

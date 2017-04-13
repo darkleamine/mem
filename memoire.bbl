@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{oc1}
+Lyes BELHOUL.
+\newblock {\em Résolution de problèmes d'optimisation combinatoire mono et
+  multi-objectifs par énumération ordonnée}.
+\newblock PhD thesis, Université Paris Dauphine - Paris IX, dec 2014.
+
+\bibitem{bb1}
+Mathieu DJAMAI.
+\newblock {\em Algorithmes Branch and Bound Pair-à-Pair pour Grilles de
+  Calcul}.
+\newblock PhD thesis, Université des Sciences et Technologie de Lille - Lille
+  I, 2013.
+
+\bibitem{oc3}
+Haibo Huang, Chu Min~Li, Nouredine~Ould Mohamedou, and Ke~Xu.
+\newblock Rb-sat:un nouveau modèle sat basé sur les codages sat du modèle
+  rb.
+\newblock June 2009.
+
+\bibitem{oc2}
+Ryan KAMMARTI.
+\newblock {\em APPROCHES EVOLUTIONNISTES POUR LA RESOLUTION DU 1-PDPTW STATIQUE
+  ET DYNAMIQUE}.
+\newblock PhD thesis, Ecole centrale de LILLE, 2006.
+
+\end{thebibliography}
