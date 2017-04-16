@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.12)  13 APR 2017 14:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.12)  17 APR 2017 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1159,7 +1159,11 @@ Writing index file memoire.idx
 
 LaTeX Warning: Label `fig2' multiply defined.
 
-) (./chapitre2.aux) (./chapitre3.aux) (./conclusion.aux))
+) (./chapitre2.aux
+
+LaTeX Warning: Label `fig5' multiply defined.
+
+) (./chapitre3.aux) (./conclusion.aux))
 \openout1 = `memoire.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
@@ -1565,7 +1569,7 @@ Chapitre 1.
 
 
 
-] [8] [9] [10] <Figures/cloud_computing.png, id=231, 448.67625pt x 313.17pt>
+] [8] [9] [10] <Figures/cloud_computing.png, id=241, 448.67625pt x 313.17pt>
 File: Figures/cloud_computing.png Graphic file (type png)
 
 <use Figures/cloud_computing.png>
@@ -1607,7 +1611,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [11 <./Figures/cloud_computing.png>]
-<Figures/evolution_de_cloud_computing.png, id=236, 377.41pt x 238.8925pt>
+<Figures/evolution_de_cloud_computing.png, id=246, 377.41pt x 238.8925pt>
 File: Figures/evolution_de_cloud_computing.png Graphic file (type png)
 
 <use Figures/evolution_de_cloud_computing.png>
@@ -1650,7 +1654,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [12 <./Figures/evolution_de_cloud_computing.png>] [13] [14]
-<Figures/modele_de_service.png, id=253, 378.41376pt x 210.7875pt>
+<Figures/modele_de_service.png, id=263, 378.41376pt x 210.7875pt>
 File: Figures/modele_de_service.png Graphic file (type png)
 
 <use Figures/modele_de_service.png>
@@ -1698,7 +1702,7 @@ ice
  []
 
 [15 <./Figures/modele_de_service.png>] [16] [17]
-<Figures/modele_de_deployement.png, id=266, 458.71375pt x 232.87pt>
+<Figures/modele_de_deployement.png, id=276, 458.71375pt x 232.87pt>
 File: Figures/modele_de_deployement.png Graphic file (type png)
 
 <use Figures/modele_de_deployement.png>
@@ -1741,7 +1745,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [18 <./Figures/modele_de_deployement.png>]
-<Figures/cloud_providers.png, id=271, 501.875pt x 250.9375pt>
+<Figures/cloud_providers.png, id=281, 501.875pt x 250.9375pt>
 File: Figures/cloud_providers.png Graphic file (type png)
 
 <use Figures/cloud_providers.png>
@@ -1787,23 +1791,151 @@ and I'll forget about whatever was undefined.
 
  (./chapitre2.tex
 Chapitre 2.
-) [22
+[22
 
 
 
-]
+] <Figures/deploiement_selon_Szy03.png, id=300, 449.68pt x 234.8775pt>
+File: Figures/deploiement_selon_Szy03.png Graphic file (type png)
+
+<use Figures/deploiement_selon_Szy03.png>
+Package pdftex.def Info: Figures/deploiement_selon_Szy03.png used on input line
+ 45.
+(pdftex.def)             Requested size: 269.81007pt x 140.92758pt.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \caption
+             {figure :la phase de déploiement et son context selon[Szy03]}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.47 \caption
+             {figure :la phase de déploiement et son context selon[Szy03]}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.47 \caption
+             {figure :la phase de déploiement et son context selon[Szy03]}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[23] [24 <./Figures/deploiement_selon_Szy03.png>] [25]
+<Figures/deploiement_definie_par_OMG.png, id=314, 651.43375pt x 452.69125pt>
+File: Figures/deploiement_definie_par_OMG.png Graphic file (type png)
+
+<use Figures/deploiement_definie_par_OMG.png>
+Package pdftex.def Info: Figures/deploiement_definie_par_OMG.png used on input 
+line 109.
+(pdftex.def)             Requested size: 390.86325pt x 271.61684pt.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \caption
+              {figure :la phase de déploiement et son context selon OMG]}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.111 \caption
+              {figure :la phase de déploiement et son context selon OMG]}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.111 \caption
+              {figure :la phase de déploiement et son context selon OMG]}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[26 <./Figures/deploiement_definie_par_OMG.png>] [27] [28]
+<Figures/deploiement_univ_colorado.png, id=327, 715.67375pt x 283.0575pt>
+File: Figures/deploiement_univ_colorado.png Graphic file (type png)
+
+<use Figures/deploiement_univ_colorado.png>
+Package pdftex.def Info: Figures/deploiement_univ_colorado.png used on input li
+ne 183.
+(pdftex.def)             Requested size: 429.40756pt x 169.8358pt.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \caption
+              {figure :La phase de déploiement définie dans [HHC+98].}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.185 \caption
+              {figure :La phase de déploiement définie dans [HHC+98].}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.185 \caption
+              {figure :La phase de déploiement définie dans [HHC+98].}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [29 <./Figures/deploiement_univ_colorado.png>]
 \openout2 = `chapitre3.aux'.
 
  (./chapitre3.tex
 Chapitre 3.
-) [23
+) [30
 
 
 
 ]
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex) [24
+ (./conclusion.tex) [31
 
 
 
@@ -1823,7 +1955,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[25
+[32
 
 
 ]
@@ -1834,7 +1966,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `memoire.out' has not changed.
-(rerunfilecheck)             Checksum: 304A43209DC64C8B2413660BA0235A40;2540.
+(rerunfilecheck)             Checksum: 777C140991EC4B5BE87403062C8ECD31;2785.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1842,10 +1974,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  ) 
 Here is how much of TeX's memory you used:
- 33950 strings out of 493013
- 749844 string characters out of 6135682
- 996512 words of memory out of 5000000
- 36743 multiletter control sequences out of 15000+600000
+ 33979 strings out of 493013
+ 750567 string characters out of 6135682
+ 996657 words of memory out of 5000000
+ 36760 multiletter control sequences out of 15000+600000
  14729 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,96p,1945b,743s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1857,10 +1989,10 @@ blic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx14
 exmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti120
 0.pfb>
-Output written on memoire.pdf (25 pages, 579238 bytes).
+Output written on memoire.pdf (32 pages, 655027 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 73 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 341 words of extra memory for PDF output out of 10000 (max. 10000000)
 

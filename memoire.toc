@@ -26,11 +26,13 @@
 \contentsline {subsection}{\numberline {1.7.3}Google AppEngine\IeC {\nobreakspace }:}{20}{subsection.1.7.3}
 \contentsline {subsection}{\numberline {1.7.4}Windows Azure\IeC {\nobreakspace }:}{21}{subsection.1.7.4}
 \contentsline {section}{\numberline {1.8}Conclusion\IeC {\nobreakspace }: }{21}{section.1.8}
-\contentsline {chapter}{\numberline {2}Conception}{22}{chapter.2}
+\contentsline {chapter}{\numberline {2}D\'eploiement d'applications}{22}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{22}{section.2.1}
-\contentsline {section}{\numberline {2.2}Notions g\'en\'erales}{22}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Aspect syntaxique}{22}{subsection.2.2.1}
-\contentsline {chapter}{\numberline {3}Impl\'ementation}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{23}{section.3.1}
-\contentsline {section}{\numberline {3.2}Notions g\'en\'erales}{23}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Aspect syntaxique}{23}{subsection.3.2.1}
+\contentsline {section}{\numberline {2.2}D\'efinition du d\'eploiement automatique}{23}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}D\'efinition de C. Szyperski}{23}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}D\'efinition de l'Object Management Group}{24}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}D\'efinition de l'Universit\'e du Colorado}{27}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Impl\'ementation}{30}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{30}{section.3.1}
+\contentsline {section}{\numberline {3.2}Notions g\'en\'erales}{30}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Aspect syntaxique}{30}{subsection.3.2.1}
