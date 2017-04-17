@@ -4,19 +4,22 @@ Le Cloud Computing se positionne actuellement en tête de liste des nouvelles tec
 se caractérise par son extensibilité et élasticité et son exploitabilité par un grand nombre
 d'utilisateurs dans le monde entier. 
 
+De nombreuses organisations ont choisi de déplacer leurs serveurs ou applications
+dans un environnement en nuage afin d'optimiser l'utilisation de leur infrastructure informatique et d'entreposage. L'exploitation des ressources d'infrastructure dans un environnement partagé,
+ou mis en commun, permet de générer des économies de coûts[https://www.cgi.com/fr/blogue/nuage/applications-nuage] ,le deplacement d'une application correspond au processus de redéploiement de celle-ci, généralement sur de nouvelles plates-formes et au sein d'une nouvelle infrastructure. 
+
+D'une manière générale, il existe deux modèles de service cible potentiels pour la migration d'un Application Infrastructure en tant que service (IaaS) et Platform as a Service (PaaS).
 pour deployer un application chez les cloud provider il faut le bien configurées et dimensionner l'environnement d'exécution,les dépendances de l'application pour prendre en compte
 l'hétérogénéité et l'élasticité inhérentes au paradigme du Cloud Computing .
 
-Notamment, il existe un grand nombre de provider ayant des niveaux de
-fonctionnalité et des possibilités de dimensionnement hétérogènes parmi les dif-
-férentes solutions de cloud disponibles (Amazon EC2, Rackspace cloud , WindowsAzure). Lors d'un déploiement d'application sur un PaaS, il faut choisir un
+Notamment, il existe un grand nombre de provider ayant des niveaux de fonctionnalité et des possibilités de dimensionnement hétérogènes parmi les différentes solutions de cloud disponibles (Amazon EC2, Rackspace cloud , WindowsAzure). Lors d'un déploiement d'application sur un PaaS, il faut choisir un
 serveur d'application, la fréquence CPU nécessaire à l'exécution, la base de données à utiliser, sa capacité en terme espace mémoire, etc. Cette variabilité en
 termes de configuration et de dimensionnement offre une multitude de possibilités de configurations qui sont généralement effectuées de manière ad hoc et sont
 sources d'erreurs lorsqu'elles sont configurées à la main[QD12].
 %il faut ajoute quelque chose
 
 
-\section{Définition du déploiement automatique}
+\section{Définition du déploiement }
 Après avoir développé un application , vous  pouvez le déployer, nous présentons trois grandes définitions quelque definition sur le déploiement : 
 Nous commencerons par la définition de Clemens Szyperski [Szy03],puis puis nous poursuivrons par celle proposée par l'Object
 Management Group (OMG) [OMG08] et enfin, nous finirons par la définition de l'université du Colorado.
@@ -111,6 +114,150 @@ déploiement) utilisé par chaque lien.
 \caption{figure :la phase de déploiement et son context selon OMG]}
 \label{fig6}
 \end{center}
-\subsection{}
+\subsection{Définition de l'Université du Colorado}
 Nous allons présenter maintenant la définition de la phase de déploiement proposée dans
-[HHC+98].
+[HHC+98].la phase de déploiement est un processus, qui contrairement aux propositions de C.
+Szyperski et de l'OMG n'est ni linéaire, ni séquentiel. Il est formé de huit activités distinctes et de
+plusieurs transitions, le tout formant une phase de déploiement minimale qui peut être considérée comme
+générique.
+
+Nous allons maintenant nous focaliser sur chacune des huit activités qui sont proposées. Ces huit
+activités sont la mise à disposition (Release), l'installation (Install), l'activation (Activate), la désactivation
+(DeActivate), la mise à jour (Update), l'adaptation (Adapt), la désinstallation (DeInstall) et la fin de
+support (DeRelease). Il est intéressant de remarquer que cette phase de déploiement est plutôt symétrique,
+ainsi, DeRelease, DeInstall et DeActivate sont, respectivement, l'inverse de Release, Install et Activate.
+
+La première activité est la mise à disposition. Cette activité fait l'interface entre le processus de
+développement du logiciel et le processus de déploiement du logiciel. Elle englobe toutes les actions
+nécessaires pour préparer un système logiciel afin qu'il puisse être correctement assemblé au niveau du
+site du consommateur. Le résultat de cette activité est un package qui contient les composants du système,
+ses dépendances et ses contraintes, ainsi que les informations nécessaires aux autres activités de
+déploiement. Enfin, l'activité de mise à disposition est aussi chargée d'informer les consommateurs de la
+mise à disposition du système.
+
+La seconde activité est l'installation. Cette activité permet d'insérer un système sur le site d'un
+consommateur. C'est l'activité la plus complexe du processus de déploiement puisqu'elle doit trouver et
+assembler toutes les ressources nécessaires au système. Concrètement, l'installation d'un système
+commence par deux étapes. La première étape est l'interprétation des informations fournies par le package
+du système. La seconde étape est l'inspection du site cible afin de configurer correctement le système
+logiciel.
+
+La troisième activité est l'activation. Cette activité consiste à démarrer les éléments d'un système
+afin de rendre le système utilisable (c'est-à-dire afin de lancer l'exécution du système). Pour un système
+simple, l'activation peut se résumer à l'appel d'une méthode de l'environnement cible. A l'inverse, pour un
+système complexe, il peut être nécessaire d'activer un certain nombre d'éléments de l'environnement, tels
+des serveurs et des démons, avant de pouvoir activer le système en lui-même. 
+
+La quatrième activité est la désactivation. Cette activité est le pendant de l'activation. Le but de
+la désactivation est d'arrêter l'exécution d'un système, cet arrêt se faisant via l'arrêt des différents éléments
+du système. L'activité de désactivation est souvent requise avant que d'autres activités comme la mise à
+jour statique puissent commencer.
+
+La cinquième activité est la mise à jour. Les auteurs présentent cette activité comme étant un cas
+particulier d'installation. Cependant, cette activité est moins complexe que l'installation, puisque la
+plupart des ressources nécessaires au système ont déjà été obtenues durant l'installation du système. Deux
+cas sont distingués pour la mise à jour. Le premier cas implique la désactivation du système, puis sa mise
+à jour et enfin sa réactivation. Le second cas n'implique pas la désactivation du système. Certains
+systèmes peuvent, en effet, être mis à jour tout en restant actifs. Enfin, tout comme l'installation, la mise à
+jour inclut aussi les sous-activités de transfert de packages et de configuration des éléments.
+
+La sixième activité est l'adaptation. Comme la mise à jour, elle permet de modifier un système
+logiciel précédemment installé. Cependant, l'activité d'adaptation diffère de l'activité de mise à jour
+puisque, contrairement à cette dernière qui est initiée par des événements distants (par exemple, par une
+commande du consommateur), l'adaptation est, quant à elle, initiée par des événements locaux (par
+exemple, par un changement dans l'environnement dans lequel le système est déployé). Une adaptation
+peut, par exemple, être initiée afin de maintenir la correction d'un système logiciel.
+
+L'avant dernière activité de la phase de déploiement est la désinstallation. Elle consiste à enlever
+un système d'un environnement donné. Pour qu'un système puisse être désinstallé, il faut qu'il ait été
+préalablement désactivé. L'activité de désinstallation n'est pas nécessairement triviale. En effet, lors de la
+désinstallation d'un système, il convient de porter une attention toute particulière aux ressources que le
+système en cours de désinstallation partage avec d'autres systèmes. Les dépendances d'autres systèmes
+vers le système ciblé par la désinstallation doivent, elles-aussi, être prises en compte lors de la
+désinstallation du système.
+
+Enfin, la dernière activité est la fin de support. Au final, un système peut être marqué comme
+obsolète, ce faisant, le producteur arrête de le maintenir. L'activité de fin de support n'est pas similaire à
+l'activité de désinstallation puisque, dans le cas d'une fin de support, le système devient indisponible pour
+de futures installations, mais n'est pas désinstallé des sites sur lesquels il est déjà déployé. De plus,
+l'activité de fin de support est aussi en charge d'informer tous les consommateurs du système de la fin du
+support[lien vers memoire].
+\begin{center}
+\includegraphics[scale=0.6]{Figures/deploiement_univ_colorado.png}
+
+\caption{figure :La phase de déploiement définie dans [HHC+98].}
+\label{fig7}
+\end{center}
+\subsection{Les approches de déploiement}
+Après une étude bibliographique sur les états de l?art sur les principales approches
+du déploiement automatique des logiciels sur le cloud, nous avons sélectionné
+quelques-unes d?entre ellex pour une description et une analyse.
+Cette section explique les architectures et les solutions adoptées existantes pour le
+déploiement automatique des logiciels sur le cloud.
+\subsubsection{Les scripts}
+Pour faire face au déploiement automatique, différents outils et solutions utilisent
+la codification manuelle par le biais de scripts, ce qui nécessite plus de temps pour
+déployer le logiciel. Ce type d?approche réduit le risque d?erreur humaine lors du
+processus de déploiement manuelle, et pour le cas de développeur, il s?occupe de
+développement d?application au lieu la configuration du cloud.
+Le seul inconvénient de ces approches de déploiement, c?est qu?il augmente les
+coûts associés à la codification, le temps et les efforts humains [RJdRSM16].
+\subsubsection{Langage de programmation}
+Nous avons également noté d?autre solutions utilisant le déploiement automatisé
+de services dans le cloud à l?aide de langage de programmation. En comparaison
+avec les approches présentées à l?aide des scripts, ces approches sont plus avan-
+tageuses en fonction de l?effort humain et le temps appréciée dans le processus de
+déploiement.
+\section{Outils et frameworks de déploiement}
+\begin{enumerate}
+ \item OSGi fournit un environnement d'exécution, basé sur la technologie Java. Le processus
+de déploiement inclut les activités suivantes : l'installation, la mise à jour, la désinstal-
+lation. Il fournit un cadre qui permet le déploiement d'applications Java, extensibles et
+téléchargeables (appelées "bundle"). "Un bundle" est constitué de classes Java et d'autres
+ressources (librairies, fichiers, etc.), l'ensemble pouvant fournir un ou plusieurs services
+aux utilisateurs. Ils sont déployés sous la forme d'archives JAR (Java ARchive). Les
+"bundles" sont les seules entités utilisées pour le déploiement d'applications. Les appareils
+OSGi compatibles peuvent télécharger, installer, supprimer les "bundles". L'installation
+et la mise à jour se font de manière dynamique, en gérant les dépendances entre les "bundles" et les services. Les limitations de ce modèle sont liées au fait qu'il est spécifique à
+l'environnement Java et à des applications non distribuées[FAYE_Maurice_Djibril_2015ENSL1036_These ++.pdf].
+
+\item Des outils de déploiement [22, 23, 97-99] et de gestion de configuration comme Chef [24],
+Puppet [25], Ansible [100], TakTuk [98] permettent un certain niveau d'automatisation
+du processus de déploiement. Les outils de configuration récents offrent la possibilité de
+?programmer? la manière dont les ressources seront configurées. Une description de l'état
+désiré des ressources considérées est donnée (un modèle, au format YAML pour Ansible
+par exemple), et ces outils transforment le modèle en un ensemble de commandes dont
+l'exécution permettra d'avoir l'état désiré.[FAYE_Maurice_Djibril_2015ENSL1036_These ++.pdf]
+
+\item SALOON Basé sur les ontologies et les MCS , il aide l'utilisateur à choisir en fonction de la configuration
+de l'application le fournisseur de Cloud qui permettra son déploiement. Les ontolo-
+gies représentent le domaine du Cloud, tandis que les MC S décrivent la variabilité
+des différents fournisseurs de Cloud. L'utilisation de MC S étendus permet en outre
+le dimensionnement de cette variabilité. Nous utilisons SALOON comme outil de
+configuration et de dimensionnement de l'application à déployer sur le Cloud[https://hal.inria.fr/hal-00747319]
+
+\item ACTRESS [103] est un cadre basé sur l?ingénierie des modèles et qui fournit des
+outils pour concevoir et intégrer des mécanismes d?adaptation dans une application, sous
+la forme de boucle de contrôle[FAYE_Maurice_Djibril_2015ENSL1036_These ++.pdf].
+
+\item EUREMA (ExecUtable RuntimE MegAmodels) [104] est aussi une approche basée
+sur l?ingénierie des modèles. EUREMA propose un langage de modélisation et un en-
+vironnement permettant de la spécification et l?exécution de mécanismes d?adaptation
+constitués d?une ou de plusieurs boucles de contrôle. L?approche repose sur une architec-
+ture en couches, dans laquelle le système auto-adaptatif est séparé logiquement en deux
+parties : la couche métier qui fournit les fonctionnalités, et au dessus, la couche qui gère
+le mécanisme d?adaptation (de la couche métier), sous la forme de boucles de contrôle.
+Tous ces cadres sont destinés au développement, à la conception de systèmes auto-
+adaptatifs.
+
+\item EUREMA (ExecUtable RuntimE MegAmodels) [113] est aussi une approche basée
+sur l?ingénierie des modèles. EUREMA propose un langage de modélisation et un en-
+vironnement permettant la spécification et l?exécution de mécanismes d?adaptation con-
+stitués d?une ou de plusieurs boucles de contrôle. L?approche repose sur une architecture
+en couches, dans laquelle le système auto-adaptatif est séparé logiquement en deux par-
+ties : la couche métier qui fournit les fonctionnalités, et au dessus, la couche qui gère le
+mécanisme d?adaptation (de la couche métier), sous la forme de boucles de contrôle.[FAYE_Maurice_Djibril_2015ENSL1036_These ++.pdf]
+
+
+\end{enumerate}
+

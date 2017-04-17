@@ -4,19 +4,22 @@ Le Cloud Computing se positionne actuellement en tête de liste des nouvelles tec
 se caractérise par son extensibilité et élasticité et son exploitabilité par un grand nombre
 d'utilisateurs dans le monde entier. 
 
+De nombreuses organisations ont choisi de déplacer leurs serveurs ou applications
+dans un environnement en nuage afin d'optimiser l'utilisation de leur infrastructure informatique et d'entreposage. L'exploitation des ressources d'infrastructure dans un environnement partagé,
+ou mis en commun, permet de générer des économies de coûts[https://www.cgi.com/fr/blogue/nuage/applications-nuage] ,le deplacement d'une application correspond au processus de redéploiement de celle-ci, généralement sur de nouvelles plates-formes et au sein d'une nouvelle infrastructure. 
+
+D'une manière générale, il existe deux modèles de service cible potentiels pour la migration d'un Application Infrastructure en tant que service (IaaS) et Platform as a Service (PaaS).
 pour deployer un application chez les cloud provider il faut le bien configurées et dimensionner l'environnement d'exécution,les dépendances de l'application pour prendre en compte
 l'hétérogénéité et l'élasticité inhérentes au paradigme du Cloud Computing .
 
-Notamment, il existe un grand nombre de provider ayant des niveaux de
-fonctionnalité et des possibilités de dimensionnement hétérogènes parmi les dif-
-férentes solutions de cloud disponibles (Amazon EC2, Rackspace cloud , WindowsAzure). Lors d'un déploiement d'application sur un PaaS, il faut choisir un
+Notamment, il existe un grand nombre de provider ayant des niveaux de fonctionnalité et des possibilités de dimensionnement hétérogènes parmi les différentes solutions de cloud disponibles (Amazon EC2, Rackspace cloud , WindowsAzure). Lors d'un déploiement d'application sur un PaaS, il faut choisir un
 serveur d'application, la fréquence CPU nécessaire à l'exécution, la base de données à utiliser, sa capacité en terme espace mémoire, etc. Cette variabilité en
 termes de configuration et de dimensionnement offre une multitude de possibilités de configurations qui sont généralement effectuées de manière ad hoc et sont
 sources d'erreurs lorsqu'elles sont configurées à la main[QD12].
 %il faut ajoute quelque chose
 
 
-\section{Définition du déploiement automatique}
+\section{Définition du déploiement }
 Après avoir développé un application , vous  pouvez le déployer, nous présentons trois grandes définitions quelque definition sur le déploiement : 
 Nous commencerons par la définition de Clemens Szyperski [Szy03],puis puis nous poursuivrons par celle proposée par l'Object
 Management Group (OMG) [OMG08] et enfin, nous finirons par la définition de l'université du Colorado.
@@ -185,3 +188,108 @@ support[lien vers memoire].
 \caption{figure :La phase de déploiement définie dans [HHC+98].}
 \label{fig7}
 \end{center}
+\subsection{Les approches de déploiement}
+Après une étude bibliographique sur les états de l'art sur les principales approches
+du déploiement automatique des logiciels sur le cloud, nous avons sélectionné
+quelques-unes d'entre ellex pour une description et une analyse.
+Cette section explique les architectures et les solutions adoptées existantes pour le
+déploiement automatique des logiciels sur le cloud.
+\subsubsection{Les scripts}
+Pour faire face au déploiement automatique, différents outils et solutions utilisent
+la codification manuelle par le biais de scripts, ce qui nécessite plus de temps pour
+déployer le logiciel. Ce type d'approche réduit le risque d'erreur humaine lors du
+processus de déploiement manuelle, et pour le cas de développeur, il s'occupe de
+développement d'application au lieu la configuration du cloud.
+Le seul inconvénient de ces approches de déploiement, c'est qu'il augmente les
+coûts associés à la codification, le temps et les efforts humains [RJdRSM16].
+\subsubsection{Langage de programmation}
+Nous avons également noté d'autre solutions utilisant le déploiement automatisé
+de services dans le cloud à l'aide de langage de programmation. En comparaison
+avec les approches présentées à l'aide des scripts, ces approches sont plus avan-
+tageuses en fonction de l'effort humain et le temps appréciée dans le processus de
+déploiement.
+\subsubsection{Les approches semi-automatiques}
+En outre, les modèles virtuels proposés par Disnix ont présenté des mécanismes
+semi-automatisés pour le déploiement. En d'autres termes, ces approches nécessitent encore que certaines étapes sont effectuées manuellement pendant le processus
+de déploiement. La solution proposée par Ardagna a présenté une approche partiellement orientée et semi-automatisée pour le déploiement de logiciel. Elle exige
+un certain niveau de la compréhension de l'utilisateur final sur les détails de la structure des clouds et une charge lourde de l'information dans les modèles de
+déploiement demandé à l'utilisateur [RJdRSM16].
+\subsubsection{Les Workflow}Cette solution propose que les développeurs aient les services à déployer pour
+créer les modèles UML du déploiement de logiciels. Ces modèles définissent tous
+les informations requises pour le déploiement (machines virtuelles, services, applications, dépendances, systèmes d'exploitation des machines virtuelles, services
+référentiels et des machines virtuelles, des bases de données, fournisseur de ser-
+vices et les clés d'accès) en tant que paramètres sans la nécessité du codage de la
+configuration d'une machine virtuelle. Ces modèles sont transformés pour générer
+le code de déploiement à l'aide d'outils spécialisés.
+\subsubsection{Approche basée sur les modèles}L'objectif est de déployer le logiciel à un niveau plus élevé d'abstraction pour
+réduire les efforts humains et le temps passé à effectuer la tâche de déploiement, car
+l'approche basée sur un modèle est une meilleure façon d'augmenter la productivité de développeur. Cette approche est la proposition de l'OMG qui est en cours de
+standardisation.
+La spécification de l'OMG, elle a pour objectif de fournir un modèle de données et
+d'exécution permettant de gérer le développement, le packaging, le déploiement et
+la configuration d'applications à base de composants. La spécification est décrite à
+travers une entité appelée "Platform-Independent Model" (PIM), composée d'un
+ensemble de modèles UML et de règles sémantiques associées. Le PIM est indépen-
+dant de tout modèle de composant particulier. Pour utiliser cette spécification avec
+un modèle particulier de composant, il faut créer une entité appelée "Platform-
+Specific Mapping" (PSM). Le PSM est un ensemble de règles qui transforme les
+modèles UML du PIM en données et modèles d'exécution, dans un format ap-
+proprié pour le déploiement du modèle de composant cible. La spécification n'a
+pour l'instant standardiser que le PSM pour le modèle de composant Corba, dans
+lequel les modèles de données et d'exécution sont transformés en deux formats :
+XML schema pour le stockage sur disque et l'échange entre outils, et IDL (In-
+terface Definition Language) pour la représentation du modèle d'exécution et des
+communications entre les entités du déploiement
+\section{Outils et frameworks de déploiement}
+\begin{enumerate}
+ \item OSGi fournit un environnement d'exécution, basé sur la technologie Java. Le processus
+de déploiement inclut les activités suivantes : l'installation, la mise à jour, la désinstal-
+lation. Il fournit un cadre qui permet le déploiement d'applications Java, extensibles et
+téléchargeables (appelées "bundle"). "Un bundle" est constitué de classes Java et d'autres
+ressources (librairies, fichiers, etc.), l'ensemble pouvant fournir un ou plusieurs services
+aux utilisateurs. Ils sont déployés sous la forme d'archives JAR (Java ARchive). Les
+"bundles" sont les seules entités utilisées pour le déploiement d'applications. Les appareils
+OSGi compatibles peuvent télécharger, installer, supprimer les "bundles". L'installation
+et la mise à jour se font de manière dynamique, en gérant les dépendances entre les "bundles" et les services. Les limitations de ce modèle sont liées au fait qu'il est spécifique à
+l'environnement Java et à des applications non distribuées[FAYE_Maurice_Djibril_2015ENSL1036_These ++.pdf].
+
+\item Des outils de déploiement [22, 23, 97-99] et de gestion de configuration comme Chef [24],
+Puppet [25], Ansible [100], TakTuk [98] permettent un certain niveau d'automatisation
+du processus de déploiement. Les outils de configuration récents offrent la possibilité de
+?programmer? la manière dont les ressources seront configurées. Une description de l'état
+désiré des ressources considérées est donnée (un modèle, au format YAML pour Ansible
+par exemple), et ces outils transforment le modèle en un ensemble de commandes dont
+l'exécution permettra d'avoir l'état désiré.[FAYE_Maurice_Djibril_2015ENSL1036_These ++.pdf]
+
+\item SALOON Basé sur les ontologies et les MCS , il aide l'utilisateur à choisir en fonction de la configuration
+de l'application le fournisseur de Cloud qui permettra son déploiement. Les ontolo-
+gies représentent le domaine du Cloud, tandis que les MC S décrivent la variabilité
+des différents fournisseurs de Cloud. L'utilisation de MC S étendus permet en outre
+le dimensionnement de cette variabilité. Nous utilisons SALOON comme outil de
+configuration et de dimensionnement de l'application à déployer sur le Cloud[https://hal.inria.fr/hal-00747319]
+
+\item ACTRESS [103] est un cadre basé sur l?ingénierie des modèles et qui fournit des
+outils pour concevoir et intégrer des mécanismes d?adaptation dans une application, sous
+la forme de boucle de contrôle[FAYE_Maurice_Djibril_2015ENSL1036_These ++.pdf].
+
+\item EUREMA (ExecUtable RuntimE MegAmodels) [104] est aussi une approche basée
+sur l?ingénierie des modèles. EUREMA propose un langage de modélisation et un en-
+vironnement permettant de la spécification et l?exécution de mécanismes d?adaptation
+constitués d?une ou de plusieurs boucles de contrôle. L?approche repose sur une architec-
+ture en couches, dans laquelle le système auto-adaptatif est séparé logiquement en deux
+parties : la couche métier qui fournit les fonctionnalités, et au dessus, la couche qui gère
+le mécanisme d?adaptation (de la couche métier), sous la forme de boucles de contrôle.
+Tous ces cadres sont destinés au développement, à la conception de systèmes auto-
+adaptatifs.
+
+\item EUREMA (ExecUtable RuntimE MegAmodels) [113] est aussi une approche basée
+sur l?ingénierie des modèles. EUREMA propose un langage de modélisation et un en-
+vironnement permettant la spécification et l?exécution de mécanismes d?adaptation con-
+stitués d?une ou de plusieurs boucles de contrôle. L?approche repose sur une architecture
+en couches, dans laquelle le système auto-adaptatif est séparé logiquement en deux par-
+ties : la couche métier qui fournit les fonctionnalités, et au dessus, la couche qui gère le
+mécanisme d?adaptation (de la couche métier), sous la forme de boucles de contrôle.[FAYE_Maurice_Djibril_2015ENSL1036_These ++.pdf]
+
+
+\end{enumerate}
+
