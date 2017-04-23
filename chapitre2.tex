@@ -272,24 +272,26 @@ configuration et de dimensionnement de l'application à déployer sur le Cloud[htt
 outils pour concevoir et intégrer des mécanismes d?adaptation dans une application, sous
 la forme de boucle de contrôle[FAYE_Maurice_Djibril_2015ENSL1036_These ++.pdf].
 
-\item EUREMA (ExecUtable RuntimE MegAmodels) [104] est aussi une approche basée
-sur l?ingénierie des modèles. EUREMA propose un langage de modélisation et un en-
-vironnement permettant de la spécification et l?exécution de mécanismes d?adaptation
-constitués d?une ou de plusieurs boucles de contrôle. L?approche repose sur une architec-
-ture en couches, dans laquelle le système auto-adaptatif est séparé logiquement en deux
-parties : la couche métier qui fournit les fonctionnalités, et au dessus, la couche qui gère
-le mécanisme d?adaptation (de la couche métier), sous la forme de boucles de contrôle.
-Tous ces cadres sont destinés au développement, à la conception de systèmes auto-
-adaptatifs.
+\item Pour découpler une machine virtuelle à partir du logiciel, Zhang et al.
+[ADNC + 12] ont élaboré un framework pour le déploiement des applications dans le cloud, qui vise à réduire le temps et les coûts liés au déploiement. La
+proposition diffère des autres approches présentées jusqu?ici, car le logiciel
+ne serait pas préinstallé sur l?image VM. Le framework proposé par Zhang
+offre un ensemble de fonctionnalités divisées en trois étapes :(i) la première
+étape c?est la préparation de logiciels, le client stock le logiciel dans un dépôt
+; (ii) la deuxième étape c?est l?étape de sélection, le client peut sélectionner
+un logiciel à partir du référentiel. Le logiciel est installé dans une machine
+virtuelle et cette VM est envoyée et installée sur le machine local du client
+; (iii) et enfin la dernière partie c?est le déploiement de logiciel, au lieu de
+stocker l?application dans une image VM, elle fonctionne sur la machine lo-
+cale sur le côté client sans l?installer.
 
 \item EUREMA (ExecUtable RuntimE MegAmodels) [113] est aussi une approche basée
-sur l?ingénierie des modèles. EUREMA propose un langage de modélisation et un en-
+sur l'ingénierie des modèles. EUREMA propose un langage de modélisation et un en-
 vironnement permettant la spécification et l?exécution de mécanismes d?adaptation con-
 stitués d?une ou de plusieurs boucles de contrôle. L?approche repose sur une architecture
 en couches, dans laquelle le système auto-adaptatif est séparé logiquement en deux par-
 ties : la couche métier qui fournit les fonctionnalités, et au dessus, la couche qui gère le
 mécanisme d?adaptation (de la couche métier), sous la forme de boucles de contrôle.[FAYE_Maurice_Djibril_2015ENSL1036_These ++.pdf]
-
-
 \end{enumerate}
 
+\section{Conclusion : }
