@@ -192,7 +192,7 @@ A mes frères et s\oe urs \\
 \tableofcontents
 \listoffigures  % table des figures
 \listoftables  % table des tableaux
-%\include{ACRONYMES}
+\include{ACRONYMES}
 \mainmatter
 %\frenchspacing
 %\printglossaries

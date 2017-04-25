@@ -184,61 +184,6 @@ year={2013},
   year = 2014
 }
 
-@inproceedings{conf/icse/ArdagnaNCPMMMGB12,
-  added-at = {2015-08-07T00:00:00.000+0200},
-  author = {Ardagna, Danilo and Nitto, Elisabetta Di and Casale, Giuliano and Petcu, Dana and Mohagheghi, Parastoo and Mosser, Sébastien and Matthews, Peter and Gericke, Anke and Ballagny, Cyril and D'Andria, Francesco and Nechifor, Cosmin-Septimiu and Sheridan, Craig},
-  biburl = {https://www.bibsonomy.org/bibtex/2a233ce8d4aa9aa5ea1a99ef91a607827/dblp},
-  booktitle = {MiSE},
-  crossref = {conf/icse/2012mise},
-  editor = {Atlee, Joanne M. and Baillargeon, Robert and France, Robert B. and Georg, Geri and Moreira, Ana and Rumpe, Bernhard and Zschaler, Steffen},
-  ee = {http://dl.acm.org/citation.cfm?id=2664439},
-  interhash = {bd775ac06fbe99cc6ad4dda57d33c2d7},
-  intrahash = {a233ce8d4aa9aa5ea1a99ef91a607827},
-  isbn = {978-1-4673-1757-3},
-  keywords = {dblp},
-  pages = {50-56},
-  publisher = {IEEE Computer Society},
-  timestamp = {2016-07-02T11:41:39.000+0200},
-  title = {MODAClouds: a model-driven approach for the design and execution of applications on multiple clouds.},
-  url = {http://dblp.uni-trier.de/db/conf/icse/mise2012.html#ArdagnaNCPMMMGB12},
-  year = 2012
-}
-@phdthesis{faye:tel-01280722,
-  TITLE = {{Self-adaptive deployment for middleware  on elastic platform}},
-  AUTHOR = {Faye, Maurice-Djibril},
-  URL = {https://tel.archives-ouvertes.fr/tel-01280722},
-  NUMBER = {2015ENSL1036},
-  SCHOOL = {{Ecole normale sup{\'e}rieure de lyon - ENS LYON}},
-  YEAR = {2015},
-  MONTH = Nov,
-  KEYWORDS = {Autonomic computing ; Finite state machine ; Software deployment ; Simulator ; Distributed systems ; Self-stabilization ; Middleware ; Self-reconfiguration ; Syst{\`e}mes distribu{\'e}s ; Auto-stabilisation ; Intergiciel ; Diet ; Simulateur ; Machine {\`a} {\'e}tats finis ; D{\'e}ploiement ; Informatique autonome ; Auto-reconfiguration},
-  TYPE = {Theses},
-  PDF = {https://tel.archives-ouvertes.fr/tel-01280722/file/FAYE_Maurice_Djibril_2015ENSL1036_These.pdf},
-  HAL_ID = {tel-01280722},
-  HAL_VERSION = {v1},
-}
-%definition de deploiement alan dearle
-@inproceedings{alan/Dearle07,
-  added-at = {2011-04-21T10:51:56.000+0200},
-  author = {Dearle, Alan},
-  biburl = {https://www.bibsonomy.org/bibtex/23317691f07957c5431fb39893a20c8f4/melnik},
-  booktitle = {FOSE},
-  crossref = {conf/icse/2007fose},
-  description = {dblp},
-  editor = {Briand, Lionel C. and Wolf, Alexander L.},
-  ee = {http://doi.acm.org/10.1145/1253532.1254724},
-  interhash = {6e938bbf4b01fb2ad500811cc3de0eb0},
-  intrahash = {3317691f07957c5431fb39893a20c8f4},
-  keywords = {deployment software},
-  pages = {269-284},
-  timestamp = {2011-04-21T10:51:56.000+0200},
-  title = {Software Deployment, Past, Present and Future.},
-  url = {http://dblp.uni-trier.de/db/conf/icse/fose2007.html#Dearle07},
-  year = 2007
-}
-
-
-
 
 
 

@@ -1,28 +1,72 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{oc1}
-Lyes BELHOUL.
-\newblock {\em Résolution de problèmes d'optimisation combinatoire mono et
-  multi-objectifs par énumération ordonnée}.
-\newblock PhD thesis, Université Paris Dauphine - Paris IX, dec 2014.
+\bibitem{moda}
+A model-driven solution for automatic software deployment in the cloud.
 
-\bibitem{bb1}
-Mathieu DJAMAI.
-\newblock {\em Algorithmes Branch and Bound Pair-à-Pair pour Grilles de
-  Calcul}.
-\newblock PhD thesis, Université des Sciences et Technologie de Lille - Lille
-  I, 2013.
+\bibitem{hhc+98}
+Software deployment: Extending configuration management support into the field.
+\newblock The Journal of Defense Software Engineering, 1998.
 
-\bibitem{oc3}
-Haibo Huang, Chu Min~Li, Nouredine~Ould Mohamedou, and Ke~Xu.
-\newblock Rb-sat:un nouveau modèle sat basé sur les codages sat du modèle
-  rb.
-\newblock June 2009.
+\bibitem{conf/icse/ArdagnaNCPMMMGB12}
+Danilo Ardagna, Elisabetta~Di Nitto, Giuliano Casale, Dana Petcu, Parastoo
+  Mohagheghi, Sébastien Mosser, Peter Matthews, Anke Gericke, Cyril Ballagny,
+  Francesco D'Andria, Cosmin-Septimiu Nechifor, and Craig Sheridan.
+\newblock Modaclouds: a model-driven approach for the design and execution of
+  applications on multiple clouds.
+\newblock In Joanne~M. Atlee, Robert Baillargeon, Robert~B. France, Geri Georg,
+  Ana Moreira, Bernhard Rumpe, and Steffen Zschaler, editors, {\em MiSE}, pages
+  50--56. IEEE Computer Society, 2012.
 
-\bibitem{oc2}
-Ryan KAMMARTI.
-\newblock {\em APPROCHES EVOLUTIONNISTES POUR LA RESOLUTION DU 1-PDPTW STATIQUE
-  ET DYNAMIQUE}.
-\newblock PhD thesis, Ecole centrale de LILLE, 2006.
+\bibitem{conf/closer/ConwayC12}
+Gerard Conway and Edward Curry.
+\newblock Managing cloud computing - a life cycle approach.
+\newblock In Frank Leymann, Ivan~I. Ivanov, Marten van Sinderen, and Tony Shan,
+  editors, {\em CLOSER}, pages 198--207. SciTePress, 2012.
+
+\bibitem{faye:tel-01280722}
+Maurice-Djibril Faye.
+\newblock {\em {Self-adaptive deployment for middleware on elastic platform}}.
+\newblock Theses, {Ecole normale sup{\'e}rieure de lyon - ENS LYON}, November
+  2015.
+
+\bibitem{Foster1999}
+I.~Foster and C.~Kesselman.
+\newblock {\em The Grid. Blueprint for a new computing infrastructure}.
+\newblock Morgan Kaufmann Publishers, San Francisco, USA, 1999.
+
+\bibitem{conf/sac/KrikavaCF14}
+Filip Krikava, Philippe Collet, and Robert~B. France.
+\newblock Actress: domain-specific modeling of self-adaptive software
+  architectures.
+\newblock In Yookun Cho, Sung~Y. Shin, Sang-Wook Kim, Chih-Cheng Hung, and
+  Jiman Hong, editors, {\em SAC}, pages 391--398. ACM, 2014.
+
+\bibitem{mell2011nist}
+Peter Mell and Timothy Grance.
+\newblock The nist definition of cloud computing.
+\newblock Technical Report 800-145, National Institute of Standards and
+  Technology (NIST), Gaithersburg, MD, September 2011.
+
+\bibitem{web/omg}
+{Object Management Group}.
+\newblock \url{http://www.omg.org}, seen at April 2008.
+
+\bibitem{quinton:hal-00747319}
+Cl{\'e}ment Quinton and Laurence Duchien.
+\newblock {Vers un Outil de Configuration et de D{\'e}ploiement pour les
+  Nuages}.
+\newblock In {\em {JLdP - Journ{\'e}e Lignes de Produits}}, pages 83--94,
+  Lille, France, November 2012.
+
+\bibitem{conf/icse/Szyperski03}
+Clemens~A. Szyperski.
+\newblock Component technology - what, where, and how?.
+\newblock In Lori~A. Clarke, Laurie Dillon, and Walter~F. Tichy, editors, {\em
+  ICSE}, pages 684--693. IEEE Computer Society, 2003.
+
+\bibitem{journals/computer/TurnerBB03}
+Mark Turner, David Budgen, and Pearl Brereton.
+\newblock Turning software into a service.
+\newblock {\em IEEE Computer}, 36(10):38--44, 2003.
 
 \end{thebibliography}

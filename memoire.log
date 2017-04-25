@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.12)  23 APR 2017 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.12)  25 APR 2017 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1340,7 +1340,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.139 \ThesisTitle
-                  {{ La méthode GRASP (Greedy Randomized Adaptive Search Pro...
+                  {{ vers un outils de configuration et deploiement dans le ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1358,7 +1358,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.141 \ThesisAuthor
-                   {ZEMRI Ahmed}
+                   {koudjil mohamed amine}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1385,7 +1385,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.145 \Rapporteurs
-                  {Mr L.LOUKIL & Université d'Oran 1}
+                  {Mme deba & Université d'Oran 1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1393,8 +1393,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.145 \Rapporteurs{Mr L.LOUKIL &
-                                 Université d'Oran 1}
+l.145 \Rapporteurs{Mme deba &
+                              Université d'Oran 1}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1565,11 +1565,11 @@ Chapitre 1.
 
 
 
-] [8] [9] <Figures/cloud_computing.png, id=277, 448.67625pt x 313.17pt>
+] [8] [9] <Figures/cloud_computing.png, id=282, 448.67625pt x 313.17pt>
 File: Figures/cloud_computing.png Graphic file (type png)
 
 <use Figures/cloud_computing.png>
-Package pdftex.def Info: Figures/cloud_computing.png used on input line 39.
+Package pdftex.def Info: Figures/cloud_computing.png used on input line 42.
 (pdftex.def)             Requested size: 269.20782pt x 187.90344pt.
 
 
@@ -1579,7 +1579,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \caption
+l.44 \caption
              {figure: cloud computing}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1587,7 +1587,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.41 \caption
+l.44 \caption
              {figure: cloud computing}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1598,7 +1598,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.41 \caption
+l.44 \caption
              {figure: cloud computing}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1607,12 +1607,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [10] [11 <./Figures/cloud_computing.png>]
-<Figures/evolution_de_cloud_computing.png, id=286, 377.41pt x 238.8925pt>
+<Figures/evolution_de_cloud_computing.png, id=293, 377.41pt x 238.8925pt>
 File: Figures/evolution_de_cloud_computing.png Graphic file (type png)
 
 <use Figures/evolution_de_cloud_computing.png>
 Package pdftex.def Info: Figures/evolution_de_cloud_computing.png used on input
- line 55.
+ line 58.
 (pdftex.def)             Requested size: 226.44774pt x 143.3366pt.
 
 
@@ -1622,7 +1622,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \caption
+l.60 \caption
              {figure: evolution de cloud computing}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1630,7 +1630,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.57 \caption
+l.60 \caption
              {figure: evolution de cloud computing}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1641,7 +1641,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.57 \caption
+l.60 \caption
              {figure: evolution de cloud computing}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1650,11 +1650,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [12 <./Figures/evolution_de_cloud_computing.png>] [13] [14]
-<Figures/modele_de_service.png, id=304, 378.41376pt x 210.7875pt>
+<Figures/modele_de_service.png, id=312, 378.41376pt x 210.7875pt>
 File: Figures/modele_de_service.png Graphic file (type png)
 
 <use Figures/modele_de_service.png>
-Package pdftex.def Info: Figures/modele_de_service.png used on input line 96.
+Package pdftex.def Info: Figures/modele_de_service.png used on input line 99.
 (pdftex.def)             Requested size: 227.05pt x 126.47346pt.
 
 
@@ -1664,16 +1664,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \caption
-             {figure : modele de srvice}
+l.101 \caption
+              {figure : modele de srvice}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.98 \caption
-             {figure : modele de srvice}
+l.101 \caption
+              {figure : modele de srvice}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1683,8 +1683,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.98 \caption
-             {figure : modele de srvice}
+l.101 \caption
+              {figure : modele de srvice}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1692,18 +1692,18 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 103--119
+Underfull \hbox (badness 2903) in paragraph at lines 106--122
 []\T1/cmr/bx/n/12 Infrastructure en tant que ser-vice(infrastructure as a Ser-v
 ice
  []
 
 [15 <./Figures/modele_de_service.png>] [16] [17]
-<Figures/modele_de_deployement.png, id=317, 458.71375pt x 232.87pt>
+<Figures/modele_de_deployement.png, id=327, 458.71375pt x 232.87pt>
 File: Figures/modele_de_deployement.png Graphic file (type png)
 
 <use Figures/modele_de_deployement.png>
 Package pdftex.def Info: Figures/modele_de_deployement.png used on input line 1
-34.
+37.
 (pdftex.def)             Requested size: 275.23038pt x 139.72307pt.
 
 
@@ -1713,7 +1713,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 \caption
+l.139 \caption
               {figure : modele de deployement}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1721,7 +1721,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.136 \caption
+l.139 \caption
               {figure : modele de deployement}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1732,7 +1732,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.136 \caption
+l.139 \caption
               {figure : modele de deployement}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1741,11 +1741,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [18 <./Figures/modele_de_deployement.png>]
-<Figures/cloud_providers.png, id=322, 501.875pt x 250.9375pt>
+<Figures/cloud_providers.png, id=334, 501.875pt x 250.9375pt>
 File: Figures/cloud_providers.png Graphic file (type png)
 
 <use Figures/cloud_providers.png>
-Package pdftex.def Info: Figures/cloud_providers.png used on input line 152.
+Package pdftex.def Info: Figures/cloud_providers.png used on input line 155.
 (pdftex.def)             Requested size: 301.12732pt x 150.56364pt.
 
 
@@ -1755,7 +1755,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.154 \caption
+l.157 \caption
               {figure : cloud provider}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1763,7 +1763,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.154 \caption
+l.157 \caption
               {figure : cloud provider}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1774,7 +1774,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.154 \caption
+l.157 \caption
               {figure : cloud provider}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1791,13 +1791,14 @@ Chapitre 2.
 
 
 
-] [23] <Figures/deploiement_selon_Szy03.png, id=344, 449.68pt x 234.8775pt>
-File: Figures/deploiement_selon_Szy03.png Graphic file (type png)
+] [23]
+<Figures/la_phase_de_deploiement.png, id=366, 332.24126pt x 201.75375pt>
+File: Figures/la_phase_de_deploiement.png Graphic file (type png)
 
-<use Figures/deploiement_selon_Szy03.png>
-Package pdftex.def Info: Figures/deploiement_selon_Szy03.png used on input line
- 48.
-(pdftex.def)             Requested size: 269.81007pt x 140.92758pt.
+<use Figures/la_phase_de_deploiement.png>
+Package pdftex.def Info: Figures/la_phase_de_deploiement.png used on input line
+ 42.
+(pdftex.def)             Requested size: 199.34628pt x 121.05318pt.
 
 
 ! LaTeX Error: \caption outside float.
@@ -1806,16 +1807,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 \caption
-             {figure :la phase de déploiement et son context selon[Szy03]}
+l.44 \caption
+             {figure :la phase de déploiement et son context selon Szyperski}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.50 \caption
-             {figure :la phase de déploiement et son context selon[Szy03]}
+l.44 \caption
+             {figure :la phase de déploiement et son context selon Szyperski}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1825,22 +1826,21 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.50 \caption
-             {figure :la phase de déploiement et son context selon[Szy03]}
+l.44 \caption
+             {figure :la phase de déploiement et son context selon Szyperski}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[24 <./Figures/deploiement_selon_Szy03.png>] [25]
-<Figures/deploiement_definie_par_OMG.png, id=354, 651.43375pt x 452.69125pt>
-File: Figures/deploiement_definie_par_OMG.png Graphic file (type png)
+[24 <./Figures/la_phase_de_deploiement.png>] [25]
+<Figures/deploiement_omg.png, id=379, 341.275pt x 240.9pt>
+File: Figures/deploiement_omg.png Graphic file (type png)
 
-<use Figures/deploiement_definie_par_OMG.png>
-Package pdftex.def Info: Figures/deploiement_definie_par_OMG.png used on input 
-line 112.
-(pdftex.def)             Requested size: 390.86325pt x 271.61684pt.
+<use Figures/deploiement_omg.png>
+Package pdftex.def Info: Figures/deploiement_omg.png used on input line 63.
+(pdftex.def)             Requested size: 204.76657pt x 144.5411pt.
 
 
 ! LaTeX Error: \caption outside float.
@@ -1849,16 +1849,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 \caption
-              {figure :la phase de déploiement et son context selon OMG]}
+l.65 \caption
+             {figure :la phase de déploiement et son context selon OMG]}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.114 \caption
-              {figure :la phase de déploiement et son context selon OMG]}
+l.65 \caption
+             {figure :la phase de déploiement et son context selon OMG]}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1868,22 +1868,26 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.114 \caption
-              {figure :la phase de déploiement et son context selon OMG]}
+l.65 \caption
+             {figure :la phase de déploiement et son context selon OMG]}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[26] [27 <./Figures/deploiement_definie_par_OMG.png>] [28]
-<Figures/deploiement_univ_colorado.png, id=367, 715.67375pt x 283.0575pt>
-File: Figures/deploiement_univ_colorado.png Graphic file (type png)
+[26 <./Figures/deploiement_omg.png>] [27]
+<Figures/deploiement_colorado.png, id=390, 773.89125pt x 228.855pt>
+File: Figures/deploiement_colorado.png Graphic file (type png)
 
-<use Figures/deploiement_univ_colorado.png>
-Package pdftex.def Info: Figures/deploiement_univ_colorado.png used on input li
-ne 186.
-(pdftex.def)             Requested size: 429.40756pt x 169.8358pt.
+<use Figures/deploiement_colorado.png>
+Package pdftex.def Info: Figures/deploiement_colorado.png used on input line 85
+.
+(pdftex.def)             Requested size: 464.33833pt x 137.31404pt.
+
+Overfull \hbox (34.33371pt too wide) in paragraph at lines 85--86
+ [] 
+ []
 
 
 ! LaTeX Error: \caption outside float.
@@ -1892,16 +1896,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.188 \caption
-              {figure :La phase de déploiement définie dans [HHC+98].}
+l.87 \caption
+             {figure :La phase de déploiement définie par  l'Université du C...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.188 \caption
-              {figure :La phase de déploiement définie dans [HHC+98].}
+l.87 \caption
+             {figure :La phase de déploiement définie par  l'Université du C...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1911,257 +1916,94 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.188 \caption
-              {figure :La phase de déploiement définie dans [HHC+98].}
+l.87 \caption
+             {figure :La phase de déploiement définie par  l'Université du C...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[29] [30 <./Figures/deploiement_univ_colorado.png>] [31]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.254 ... à des applications non distribuées[FAYE_
-                                                  Maurice_Djibril_2015ENSL10...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.255 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.255 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.255 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.262 ...on permettra d'avoir l'état désiré.[FAYE_
-                                                  Maurice_Djibril_2015ENSL10...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.263 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.263 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[32]
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.263 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.273 la forme de boucle de contrôle[FAYE_
-                                          Maurice_Djibril_2015ENSL1036_These...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.274 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.274 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.274 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.294 ...us la forme de boucles de contrôle.[FAYE_
-                                                  Maurice_Djibril_2015ENSL10...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: Command \end{enumerate} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.295 \end{enumerate}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.295 \end{enumerate}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.295 \end{enumerate}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.295 \end{enumerate}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[33]) [34]
+[28] [29 <./Figures/deploiement_colorado.png>] [30] [31] [32]) [33]
 \openout2 = `chapitre3.aux'.
 
- (./chapitre3.tex
+
+(./chapitre3.tex
 Chapitre 3.
-) [35
+) [34
 
 
 
 ]
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex) [36
+ (./conclusion.tex) [35
 
 
 
 ] (./memoire.bbl
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
-)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 52.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [36
+
+
+])
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[37
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
+[37]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
  (./memoire.aux (./introduction.aux) (./chapitre1.aux) (./chapitre2.aux)
 (./chapitre3.aux) (./conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
 Package rerunfilecheck Info: File `memoire.out' has not changed.
-(rerunfilecheck)             Checksum: D563C7ABFCD84B1B53511EA39FFB5760;3438.
+(rerunfilecheck)             Checksum: FC8BA5762F4CBF8543CC38467C1A7FA1;3501.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
  ) 
 Here is how much of TeX's memory you used:
- 34008 strings out of 493013
- 750963 string characters out of 6135682
- 996723 words of memory out of 5000000
- 36770 multiletter control sequences out of 15000+600000
- 14729 words of font info for 36 fonts, out of 8000000 for 9000
+ 34045 strings out of 493013
+ 751990 string characters out of 6135682
+ 997086 words of memory out of 5000000
+ 36792 multiletter control sequences out of 15000+600000
+ 15042 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,96p,1945b,743s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx12
-00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm120
-0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on memoire.pdf (37 pages, 695855 bytes).
+pdfTeX warning (dest): name{cite.faye\\penalty\040\\@M\040\040:tel-01280722} 
+has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.quinton\\penalty\040\\@M\040\040:hal-00747319}
+ has been referenced but does not exist, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on memoire.pdf (37 pages, 671001 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 423 compressed objects within 5 object streams
- 101 named destinations out of 1000 (max. 500000)
- 405 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 520 PDF objects out of 1000 (max. 8388607)
+ 455 compressed objects within 5 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
