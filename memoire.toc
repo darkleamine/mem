@@ -40,7 +40,7 @@
 \contentsline {subsubsection}{\numberline {2.3.1.4}Les Workflow}{30}{subsubsection.2.3.1.4}
 \contentsline {subsubsection}{\numberline {2.3.1.5}Approche bas\'ee sur les mod\`eles}{30}{subsubsection.2.3.1.5}
 \contentsline {section}{\numberline {2.4}Outils et frameworks de d\'eploiement}{31}{section.2.4}
-\contentsline {section}{\numberline {2.5}Conclusion\IeC {\nobreakspace }: }{33}{section.2.5}
+\contentsline {section}{\numberline {2.5}Conclusion : }{33}{section.2.5}
 \contentsline {chapter}{\numberline {3}Impl\'ementation}{34}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{34}{section.3.1}
 \contentsline {section}{\numberline {3.2}Notions g\'en\'erales}{34}{section.3.2}

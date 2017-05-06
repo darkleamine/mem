@@ -7,16 +7,6 @@ A model-driven solution for automatic software deployment in the cloud.
 Software deployment: Extending configuration management support into the field.
 \newblock The Journal of Defense Software Engineering, 1998.
 
-\bibitem{conf/icse/ArdagnaNCPMMMGB12}
-Danilo Ardagna, Elisabetta~Di Nitto, Giuliano Casale, Dana Petcu, Parastoo
-  Mohagheghi, Sébastien Mosser, Peter Matthews, Anke Gericke, Cyril Ballagny,
-  Francesco D'Andria, Cosmin-Septimiu Nechifor, and Craig Sheridan.
-\newblock Modaclouds: a model-driven approach for the design and execution of
-  applications on multiple clouds.
-\newblock In Joanne~M. Atlee, Robert Baillargeon, Robert~B. France, Geri Georg,
-  Ana Moreira, Bernhard Rumpe, and Steffen Zschaler, editors, {\em MiSE}, pages
-  50--56. IEEE Computer Society, 2012.
-
 \bibitem{conf/closer/ConwayC12}
 Gerard Conway and Edward Curry.
 \newblock Managing cloud computing - a life cycle approach.
@@ -34,22 +24,30 @@ I.~Foster and C.~Kesselman.
 \newblock {\em The Grid. Blueprint for a new computing infrastructure}.
 \newblock Morgan Kaufmann Publishers, San Francisco, USA, 1999.
 
-\bibitem{conf/sac/KrikavaCF14}
-Filip Krikava, Philippe Collet, and Robert~B. France.
-\newblock Actress: domain-specific modeling of self-adaptive software
-  architectures.
-\newblock In Yookun Cho, Sung~Y. Shin, Sang-Wook Kim, Chih-Cheng Hung, and
-  Jiman Hong, editors, {\em SAC}, pages 391--398. ACM, 2014.
-
 \bibitem{mell2011nist}
 Peter Mell and Timothy Grance.
 \newblock The nist definition of cloud computing.
 \newblock Technical Report 800-145, National Institute of Standards and
   Technology (NIST), Gaithersburg, MD, September 2011.
 
+\bibitem{conf/fedcsis/MoscatoAMFM11}
+Francesco Moscato, Rocco Aversa, Beniamino~Di Martino, Teodor-Florin Fortis,
+  and Victor~Ion Munteanu.
+\newblock An analysis of mosaic ontology for cloud resources annotation.
+\newblock In Maria Ganzha, Leszek~A. Maciaszek, and Marcin Paprzycki, editors,
+  {\em FedCSIS}, pages 973--980, 2011.
+
 \bibitem{web/omg}
 {Object Management Group}.
 \newblock \url{http://www.omg.org}, seen at April 2008.
+
+\bibitem{conf/servicewave/PetcuCNPMVRA10}
+Dana Petcu, Ciprian Craciun, Marian Neagul, Silviu Panica, Beniamino~Di
+  Martino, Salvatore Venticinque, Massimiliano Rak, and Rocco Aversa.
+\newblock Architecturing a sky computing platform.
+\newblock In Michel Cezon and Yaron Wolfsthal, editors, {\em ServiceWave
+  Workshops}, volume 6569 of {\em Lecture Notes in Computer Science}, pages
+  1--13. Springer, 2010.
 
 \bibitem{quinton:hal-00747319}
 Cl{\'e}ment Quinton and Laurence Duchien.
@@ -57,6 +55,22 @@ Cl{\'e}ment Quinton and Laurence Duchien.
   Nuages}.
 \newblock In {\em {JLdP - Journ{\'e}e Lignes de Produits}}, pages 83--94,
   Lille, France, November 2012.
+
+\bibitem{journals/ibmrd/RochwergerBLGNLMWECBEG09}
+Benny Rochwerger, David Breitgand, Eliezer Levy, Alex Galis, Kenneth Nagin,
+  Ignacio~Martín Llorente, Rubén~S. Montero, Yaron Wolfsthal, Erik Elmroth,
+  Juan~A. Cáceres, Muli Ben-Yehuda, Wolfgang Emmerich, and Fermín Galán.
+\newblock The reservoir model and architecture for open federated cloud
+  computing.
+\newblock {\em IBM Journal of Research and Development}, 53(4):4, 2009.
+
+\bibitem{29}
+Benny Rochwerger, David Breitgand, Eliezer Levy, Alex Galis, Kenneth Nagin,
+  Ignacio~Martín Llorente, Rubén~S. Montero, Yaron Wolfsthal, Erik Elmroth,
+  Juan~A. Cáceres, Muli Ben-Yehuda, Wolfgang Emmerich, and Fermín Galán.
+\newblock The reservoir model and architecture for open federated cloud
+  computing.
+\newblock {\em IBM Journal of Research and Development}, 53(4):4, 2009.
 
 \bibitem{conf/icse/Szyperski03}
 Clemens~A. Szyperski.

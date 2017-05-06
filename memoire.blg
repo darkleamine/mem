@@ -8,18 +8,26 @@ A level-1 auxiliary file: chapitre3.aux
 A level-1 auxiliary file: conclusion.aux
 The style file: plain.bst
 Database file #1: Biblio.bib
+I was expecting a `,' or a `}'---line 294 of file Biblio.bib
+ :   year = 2009
+ :              .
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 307 of file Biblio.bib
+ :   [note =  xii 
+ :                2.35.36.55.57.58.59]
+I'm skipping whatever remains of this entry
 A bad cross reference---entry "conf/closer/ConwayC12"
 refers to entry "conf/closer/2012", which doesn't exist
 A bad cross reference---entry "conf/icse/Szyperski03"
 refers to entry "conf/icse/2003", which doesn't exist
-A bad cross reference---entry "conf/sac/KrikavaCF14"
-refers to entry "conf/sac/2014", which doesn't exist
-A bad cross reference---entry "conf/icse/ArdagnaNCPMMMGB12"
-refers to entry "conf/icse/2012mise", which doesn't exist
+A bad cross reference---entry "conf/fedcsis/MoscatoAMFM11"
+refers to entry "conf/fedcsis/2011", which doesn't exist
+A bad cross reference---entry "conf/servicewave/PetcuCNPMVRA10"
+refers to entry "conf/servicewave/2010w", which doesn't exist
 Warning--I didn't find a database entry for "conf/closer/2012"
 Warning--I didn't find a database entry for "conf/icse/2003"
-Warning--I didn't find a database entry for "conf/sac/2014"
-Warning--I didn't find a database entry for "conf/icse/2012mise"
+Warning--I didn't find a database entry for "conf/fedcsis/2011"
+Warning--I didn't find a database entry for "conf/servicewave/2010w"
 Warning--to sort, need author or key in hhc+98
 Warning--to sort, need author or key in moda
 Warning--empty author in moda
@@ -27,45 +35,45 @@ Warning--empty booktitle in moda
 Warning--empty year in moda
 Warning--empty author in hhc+98
 Warning--empty booktitle in hhc+98
-You've used 12 entries,
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            588 strings with 6562 characters,
-and the built_in function-call counts, 4411 in all, are:
-= -- 403
-> -- 233
-< -- 6
-+ -- 90
-- -- 75
-* -- 309
-:= -- 701
-add.period$ -- 36
-call.type$ -- 12
-change.case$ -- 64
+            597 strings with 6841 characters,
+and the built_in function-call counts, 5453 in all, are:
+= -- 485
+> -- 338
+< -- 7
++ -- 136
+- -- 116
+* -- 419
+:= -- 892
+add.period$ -- 41
+call.type$ -- 14
+change.case$ -- 94
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 185
-empty$ -- 355
-format.name$ -- 75
-if$ -- 968
+cite$ -- 21
+duplicate$ -- 206
+empty$ -- 396
+format.name$ -- 116
+if$ -- 1152
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 10
-newline$ -- 59
-num.names$ -- 26
-pop$ -- 91
+int.to.str$ -- 14
+missing$ -- 12
+newline$ -- 69
+num.names$ -- 30
+pop$ -- 117
 preamble$ -- 1
-purify$ -- 53
+purify$ -- 81
 quote$ -- 0
-skip$ -- 135
+skip$ -- 148
 stack$ -- 0
-substring$ -- 202
-swap$ -- 57
-text.length$ -- 6
+substring$ -- 216
+swap$ -- 59
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 46
+type$ -- 54
 warning$ -- 7
-while$ -- 33
-width$ -- 14
-write$ -- 128
-(There were 4 error messages)
+while$ -- 39
+width$ -- 16
+write$ -- 150
+(There were 6 error messages)
